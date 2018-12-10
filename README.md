@@ -1,5 +1,5 @@
-# uri-exercises
+# algorithms
 
-Uri exercises to learn and practice
+Algorithms to learn and practice 
 
-[My Profile](https://www.urionlinejudge.com.br/judge/pt/profile/105643)
+Uri: [My Profile](https://www.urionlinejudge.com.br/judge/pt/profile/105643)
