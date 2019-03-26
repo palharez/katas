@@ -8,7 +8,7 @@
 
 # sort_array([5, 3, 2, 8, 1, 4]) == [1, 3, 2, 8, 5, 4]
 
-ef sort_array(alist):
+def sort_array(alist):
     pair = {alist.index(n): n for n in alist if n % 2 == 0}
     odds = sorted([n for n in alist if n % 2 != 0])
     for k, v in pair.items():
