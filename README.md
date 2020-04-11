@@ -1,6 +1,12 @@
-# algorithms
+# Algorithms
 
-Algorithms to learn and practice 
+Algorithms to learn and practice
+
+## Badges
+
+[![Codewars](https://www.codewars.com/users/palharez/badges/micro)]()
+
+## Links
 
 Leetcode: [My Profile](https://leetcode.com/palharez/)
 
