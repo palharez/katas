@@ -8,6 +8,8 @@ class TreeNode:
 class Solution:
     def isSameTree(self, p, q):
 
+        stack = []
+
         def dfs(root):
 
             if root == None:
