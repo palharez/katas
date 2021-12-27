@@ -1,6 +1,4 @@
-# Algorithms
-
-Algorithms to learn and practice
+# Katas
 
 ## Badges
 
