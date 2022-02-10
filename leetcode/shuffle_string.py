@@ -1,4 +1,4 @@
-def shuffle(s, indices):
+def shuffle(s, indices): # O(N)
     response = [0] * len(indices)
 
     for i in range(len(s)):
