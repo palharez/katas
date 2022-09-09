@@ -1,6 +1,3 @@
-from tokenize import group
-
-
 def groupThePeople(groupSizes):
     groups = {}
 
