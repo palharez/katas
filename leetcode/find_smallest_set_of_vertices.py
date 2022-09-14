@@ -1,6 +1,6 @@
 class Solution:
     def findSmallestSetOfVertices(self, n: int, edges: List[List[int]]) -> List[int]:
-        def parse_to_adjency_lis(edges):
+        def parse_to_adjency_list(edges):
             graph = {}
 
             for f, t in edges:
@@ -26,7 +26,7 @@ class Solution:
 
         visited = {}
         non_vertice = {}
-        graph = parse_to_adjency_lis(edges)
+        graph = parse_to_adjency_list(edges)
 
         for node in graph.keys():
             dfs(node, graph, visited, non_vertice)

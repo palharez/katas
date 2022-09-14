@@ -1,6 +1,6 @@
 class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
-        def parse_to_adjency_lis(arr):
+        def parse_to_adjency_list(arr):
             graph = {}
 
             for i in range(len(arr)):
@@ -24,7 +24,7 @@ class Solution:
             return 1
 
 
-        graph = parse_to_adjency_lis(isConnected)
+        graph = parse_to_adjency_list(isConnected)
 
         visited = {}
 
